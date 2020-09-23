@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    color: #202020;
+    background-color: #f0f0f0;
+    font-family: 'Lora', serif;
+}
+
+/* HEADER */
+
+#header-nav {
+    background-color: #808080;
+    border-radius: 0%;
+    border: 0;
+}
+
+.navbar-brand {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant Name */
+    font-family: 'Architects Daughter', cursive;;
+    color: #202020;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #202020;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both; 
+    margin-top: -55px;
+}
+
+#nav-list a span {
+    color: #202020;
+    font-weight: bold;
+    line-height: .75;
+}
+
+#nav-list hr {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid #A9A9A9;
+}
+
+#nav-list a:hover {
+    background: #A9A9A9;
+    width: 80%;
+    margin-left: 10%;
+}
+/* END HEADER */
+
+/*HOME PAGE*/
+#main-content h1 {
+    color: #202020;
+    font-weight: bold;
+}
+
+#food-section {
+    background-color: #808080;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#chicken-tile {
+    color: #202020;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#food-section a:hover, #food-section a:focus {
+    text-decoration: none;
+}
+
+#food-description  {
+    color: #202020;
+    font-weight: bold;
+}
+
+/*END HOME PAGE*/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#collapsable-nav {
+    background-color: #D3D3D3;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-size: 4.5vw; /* 1vw = 1% of viewport width */
+}
+
+#food-section {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+}
