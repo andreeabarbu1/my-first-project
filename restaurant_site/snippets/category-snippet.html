@@ -1,0 +1,14 @@
+<!-- we get an array of these categories, we're going to 
+  loop over that array and every time we get a category 
+  with this information, we're going to want to populate 
+  this little snippet and then make a copy of it and then
+   insert it and keep building up our HTML. -->
+<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+  <a href="#" onclick="$dc.loadMenuItems('{{short_name}}');">
+    <div class="category-tile">
+      <!-- curly braces for insert into HTML real data-->
+      <img width="200" height="200" src="images/menu/{{short_name}}/{{short_name}}.jpg" alt="{{name}}">
+      <span>{{name}}</span>
+    </div>
+  </a>
+</div>
